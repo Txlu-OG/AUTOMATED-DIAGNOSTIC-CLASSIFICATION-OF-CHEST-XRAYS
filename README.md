@@ -11,7 +11,7 @@ A flattening layer transitions to fully connected layers.
 A dropout layer (50% rate) is used for regularization to prevent overfitting.
 The final dense layer with a softmax activation function outputs the probability distribution over the four classes.
 ## Training
-Training was performed using the fit method, specifying the number of epochs and utilizing both training and validation data generators. The model was trained for five epochs using the Adam optimizer and categorical cross-entropy loss function. Precision, recall, and F1-score are included as metrics alongside accuracy.
+Training was performed using the fit method, specifying the number of epochs and utilizing both training and validation data generators. The model was trained for five epochs using the Adam optimizer and categorical cross-entropy loss function. Precision, recall, and F1-score are included as metrics alongside accuracy. 
 ## Result
 The model achieved an accuracy of approximately 81.6% on the test set. Training and validation metrics indicate an overall satisfactory performance. The model demonstrates proficiency in recognizing patterns specific to each class. However, misclassifications are noted, particularly between normal and pneumonia classes, as evident from the confusion matrix.
 ## Conclusion
